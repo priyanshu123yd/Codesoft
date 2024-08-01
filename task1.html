@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="task1.css">
+    <link rel="stylesheet" href="task1.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Priyanshu Yadav</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                              Portfolio
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Priyanshu yadav</h1>
+                <h4 class="sub-heading">
+                    "Passionate Computer Science student specializing in web development, data analysis, and creative problem-solving."
+
+
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <button id="hireMeBtn" class="btn common-btn">Hire Me</button>
+                <button id="getResumeBtn" class="btn ghost-btn">Get Resume</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Featured Portfolio</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="webdev.jpeg" 
+                                 alt="Web Design Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Design</h3>
+                        <p class="small-para blue-text">Designing</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="webdevlop.jpeg" 
+                                 alt="Web Development Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Web Development
+                          </h3>
+                        <p class="small-para blue-text">Development</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="dataanalysis.jpeg" alt="Data Analysis">
+                        </div>
+                        <h3 class="greet-heading blue-text">Data Analysis</h3>
+                        <p class="small-para blue-text">Analysis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="contentwriting.jpeg" 
+                                 alt="Content Writting Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Content Writing
+                          </h3>
+                        <p class="small-para blue-text">Writing</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="wordpress.jpeg" 
+                                 alt="Wordpress Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              WordPress Dev
+                          </h3>
+                        <p class="small-para blue-text">
+                              Content Management System
+                          </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="videoediting.jpeg" 
+                                 alt="Video Editing Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para blue-text">Editing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+                
+
+Hello! I'm Priyanshu yadav , a dedicated Computer Science student with a deep passion for both front-end and back-end development. My journey into technology is driven by a love for problem-solving and creating effective, user-centric solutions.
+
+I have a solid foundation in **JavaScript**, which allows me to develop interactive and dynamic web applications. Coupled with my skills in **CSS** and **HTML**, I can design and build visually appealing, responsive websites that adhere to modern web standards. My **Python** knowledge, though foundational, supports my work in scripting, automation, and basic data analysis.
+
+In addition to these core skills, I’m proficient in **SQL**, enabling me to manage and query databases efficiently. This is complemented by my experience in **data analysis**, where I use various techniques to extract valuable insights from datasets and support data-driven decisions.
+
+I'm always eager to learn and adapt to new technologies and methodologies, embracing challenges with enthusiasm and a commitment to excellence. Explore my portfolio to see how I apply these skills in my projects, and feel free to reach out if you have any questions or opportunities for collaboration!
+
+            </p>
+           
+        </div>
+        <div class="about-image">
+            <img src="aboutme.jpg" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Design</h3>
+                        <p class="small-para">
+                            I specialize in web design, creating visually appealing and user-friendly websites that enhance user experience and engagement. With a strong grasp of design principles and proficiency in tools like Adobe XD and Figma, I focus on crafting responsive, intuitive layouts that align with modern aesthetics and usability standards.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Web Development
+                          </h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Data Analysis</h3>
+                        <p class="small-para">
+                            I am skilled in data analysis, utilizing tools and techniques to extract actionable insights from complex datasets. My experience includes data cleaning, statistical analysis, and visualization to uncover trends and support data-driven decision-making. I aim to transform raw data into meaningful information that drives strategic outcomes. This brings a big boost up in my skills.
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Content Writting
+                          </h3>
+                        <p class="small-para">
+                            With a keen eye for detail and a passion for clear, engaging communication, I excel in crafting compelling content that resonates with target audiences. My writing skills encompass creating informative and persuasive copy for various mediums, including web pages, blogs, and technical documentation. I focus on blending creativity with precision to produce content that is both impactful and easy to understand
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-wordpress-simple"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              WordPress Dev
+                          </h3>
+                        <p class="small-para">
+                            I have hands-on experience with WordPress, enabling me to design, develop, and customize websites that are both functional and visually appealing. My skills include theme and plugin development, as well as optimizing site performance and ensuring responsiveness across devices. I am adept at using WordPress to build user-friendly, scalable solutions tailored to client needs.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para">
+                            I bring a creative touch to video editing, with experience in crafting engaging and polished visual content. Proficient in using editing software such as Adobe Premiere Pro and Final Cut Pro, I focus on producing high-quality videos by seamlessly integrating footage, audio, and effects. My goal is to create compelling narratives and visually captivating pieces that effectively communicate the intended message.
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">yadavpriyanshu2016@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 8441936601</p>
+                </div>
+                
+                
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">Greater noida, India</p>
+                    <p>Plot no 298</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    
+                                
+                                        <footer class="footer">
+                                            <div class="footer-content text-center">
+                                                <h4>
+                                                    Copyright © 2023 All rights reserved |
+                                                    This portfolio website template is created 
+                                                      by Priyanshu yadav.
+                                                </h4>
+                                                <div class="social-links">
+                                                    <div class="footer-menu">
+                                                        <ul class="footer-menu-list">
+                                                            <li class="footer-list-items">
+                                                                <a class="footer-links" href="https://github.com/priyanshu123yd">
+                                                                    <i class="fab fa-github"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="footer-list-items">
+                                                                <a class="footer-links" href="https://x.com/priyanshuy41628?t=0xFpSzZlLVLA-ewFBuhohg&s=09">
+                                                                    <i class="fab fa-twitter"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="footer-list-items">
+                                                                <a class="footer-links" href="https://www.instagram.com/priyanshu_yadav.28?igsh=MWxhaXFpeXU3ZjJmdA==">
+                                                                    <i class="fab fa-instagram"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li class="footer-list-items">
+                                                                <a class="footer-links" href="https://www.linkedin.com/in/priyanshu-yadav-126760232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                                                >
+                                                                    <i class="fab fa-linkedin-in"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </footer>
+                                    
+                                        <script src=
+                                    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+                                            integrity=
+                                    "sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+                                            crossorigin="anonymous" referrerpolicy="no-referrer">
+                                          </script>
+                                        <script src="task1.js"></script>
+                                    
+                                    </body>
+                                    
+                                    </html>
+                             
+                                <script src=
+                            "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+                                    integrity=
+                            "sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+                                    crossorigin="anonymous" referrerpolicy="no-referrer">
+                                  </script>
+                                <script src="task1.js"></script>
+                            
+                            </body>
+                            
+                            </html>
+                            "></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://x.com/priyanshuy41628?t=0xFpSzZlLVLA-ewFBuhohg&s=09">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.instagram.com/priyanshu_yadav.28?igsh=MWxhaXFpeXU3ZjJmdA==">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.linkedin.com/in/priyanshu-yadav-126760232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            >
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="task1.js"></script>
+
+</body>
+
+</html>
