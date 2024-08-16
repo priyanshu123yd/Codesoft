@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: #135163;
+    font-family: 'Arial', sans-serif;
+}
+
+.clock {
+    font-size: 3em;
+    font-weight: bold;
+    border: 4px solid black;
+    background-color: aliceblue;
+}
+
+#hours, #minutes, #seconds {
+    display: inline-block;
+    min-width: 2em;
+    text-align: center;
+}
+
+#hours::after, #minutes::after, #seconds::after {
+    content: ':';
+    padding: 0 0.2em;
+}
+
+#seconds::after {
+    content: '';
+}
